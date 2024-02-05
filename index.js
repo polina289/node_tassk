@@ -22,4 +22,4 @@ let admin = require('./routes/admin');
 app.use('/admin', admin);
 
 
-app.listen(3000);
+app.listen(3000, 'localhost');
